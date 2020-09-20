@@ -1,0 +1,460 @@
+.main .left {
+    height: 76.5rem;
+    padding-top: 1.5rem;
+}
+
+@media screen and (min-width: 00px){
+	html {
+		font-size: 10px;
+	}
+	body {
+		font-size: 1.6rem;
+	}
+}
+@font-face
+{
+	font-family: newFont;
+	src: url("../fonts/newFont.TTF");
+}
+.message {
+    font-family: newFont;
+    position: absolute;
+    right: 0%;
+    top: -94%;
+    font-size: 1.8rem;
+    font-style: italic;
+    color: #ff9409;
+    display: none;
+}
+.left .s2 {
+    display: inline-block;
+    width: 120px;
+}
+.left .s1 {
+	font: 1.5rem "微软雅黑";
+	color: #455fe7;
+/*     margin-top: 28rem; */
+}
+input::-ms-clear,input::-ms-reveal{
+    display:none
+}
+.right ol {
+    list-style: none;
+    width: 279px;
+    right: 45.0rem;
+    top: 40%;
+    left: 62.5%;
+    border-radius: 5%;
+    background-color: #f8f8f8;
+    position: absolute;
+    display: none;
+    z-index: 5;
+}
+ol li:hover {
+    background-color: #dafdf3;
+    cursor: pointer;
+}
+table tr:hover {
+    background-color: #dafdf3;
+    cursor: pointer;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+img {
+	vertical-align: baseline;
+}
+input {
+	outline: none;
+	border: 0rem
+}
+input[type='button'] {
+	cursor: pointer;
+	text-indent: 0rem;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #5a5a5a;
+}
+a:active {
+	text-decoration: none;
+	color: #5a5a5a;
+}
+.clearfix:after{ /*姝ｅ父娴忚鍣� 娓呴櫎娴姩*/
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix{
+	*zoom: 1; /* *zoom 1 灏辨槸ie6娓呴櫎娴姩鏂瑰紡 *琛ㄧずie7浠ヤ笅鐨勭増鏈彲璇嗗埆*/
+}
+body {
+	background: #f3f3f3;
+}
+div > input {
+	text-indent: 1.5rem;
+}
+.header {
+	height: 12.0rem;
+	background-image: url(../images/exInfoBg.png);
+}
+.header p {
+	font-family: "Noto Sans SC";
+	font-weight: 700;
+	font-size: 3.0rem;
+	color: #fff;
+	float: left;
+	margin-left: 35.0rem;
+	margin-top: 4.0rem;
+}
+.header p span {
+	font-weight: lighter;
+}
+.header input {
+	font: 1.6rem "寰蒋闆呴粦";
+	color: #455fe7;
+	float: right;
+	width: 14.0rem;
+	height: 4.0rem;
+	border-radius: 4.0rem;
+	outline: none;
+	border: 0rem;
+	margin-right: 35.0rem;
+	margin-top: 4.0rem;
+	text-indent: 3.5rem;
+	padding-bottom: 0.2rem;
+	background: #ffffff url(../images/homePage.png) no-repeat 2.3rem 0.8rem;
+	cursor: pointer;
+}
+.main {
+	width: 1200px;
+	height: 84.5rem;
+	margin: 0 auto;
+}
+.location {
+	width: 23.5rem;
+	height: 1.5rem;
+	font: 1.4rem "寰蒋闆呴粦";
+	color: #666666;
+	line-height: 1.3rem;
+	text-indent: 2.5rem;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	background: url(../images/locationArr.png) no-repeat 0.2rem 2.5rem;
+}
+.left {
+	width: 205px;
+	height: 73.1rem;
+	background-color: #fff;
+	float: left;
+}
+.left img {
+	margin-top: 3.0rem;
+	margin-left: 6.5rem;
+}
+.left p {
+	width: 12.0rem;
+	border-radius: 3.0rem;
+	height: 3.0rem;
+	margin: 0 auto;
+	font: 700 1.5rem "寰蒋闆呴粦";
+	line-height: 3.0rem;	
+	color: #fff;
+	background-color: #455fe7;
+	text-align: center;
+	margin-top: 1.5rem;
+}
+.left li {
+	width: 180px;
+	height: 1.7rem;
+    font: 15px "微软雅黑";
+    font-weight: 400;
+	color: #5a5a5a;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 25px;
+}
+.left .now {background: url(../images/selected.png) no-repeat;
+    background-size: 100%;
+}
+.left li img {
+	display: inline;
+	margin: 0rem;
+	margin-right: 0.5rem;
+}
+.right {
+	float: right;
+	width: 980px;
+	height: 78.1rem;
+	background-color: #fff;
+}
+.right .rhead {
+	height: 2.0rem;
+	font: 700 1.8rem "寰蒋闆呴粦";
+	color: #455fe7;
+	margin-top: 2.5rem;
+	padding-left: 2.5rem;
+	padding-bottom: 2.5rem;
+	border-bottom: #e9e9e9 solid 0.1rem;
+}
+.rhead span {
+	font: 700 1.2rem "寰蒋闆呴粦";
+	color: #c8c8c8;
+	padding-left: 0.5rem;
+}
+.right form {
+    position: relative;
+	width: 880px;
+	height: 10.0rem;
+	margin: 0 auto;
+	margin-top: 5.0rem;
+	margin-bottom: 3.0rem;
+	color: #505050;
+}
+form li input,
+select {
+	width: 308px;
+	height: 3.7rem;
+	border: #dedede solid 0.1rem;
+	font: 1.4rem "寰蒋闆呴粦";
+	border-radius: 0.5rem;
+	margin-bottom: 1.9rem;
+	background-color: #f8f8f8;
+	text-indent: 1.5rem;
+	color: #505050;
+}
+form input[type='button'] {
+	width: 100px;
+	height: 3.5rem;
+	font: 1.5rem "寰蒋闆呴粦";
+	color: #fff;
+	margin: 0rem;
+	border-radius: 3.5rem;
+	margin-left: 55px;
+	margin-bottom: 3.0rem;
+}
+input[id='addData'] {
+	background-color: #455fe7;
+}
+input[id='changeData'] {
+	background-color: #ff9409;
+}
+input[id='findData'] {
+	background-color: #ad47e7;
+}
+form .in2 {
+	background-color: #ff9409;
+	float: right;
+}
+.tdiv {
+	width: 880px;
+	height: 52rem; 	
+	margin: 0 auto;
+	overflow-y: scroll;
+	overflow-x: hidden;	
+}
+table {
+	table-layout:fixed;
+	width: 867px;
+	text-align: center;
+	border-collapse: collapse;
+}
+th {
+	background-color: #eceffd;
+    color: #455fe7;
+    height: 3.5rem;
+}
+tr: hover {
+	background-color: #dafdf3;
+	cursor: pointer;
+}
+.t1 {
+    width: 281px;
+}
+.t2 {
+    width: 281px;
+}
+.t3 {
+	width: 120px;
+}
+.t9 {
+    width: 120px;
+    height: 4.0rem;
+}
+.t9 input {
+    width: 6.8rem;
+    height: 2.8rem;
+    border-radius: 2.8rem;
+    color: #fff;
+    background: #455fe7 url(../images/delIcon.png) no-repeat 1.0rem 0.6rem;
+    text-indent: 1.8rem;
+    line-height: 2.5rem;
+}
+.page {
+    margin: 2.0rem;
+}
+.page .curpage {
+    background-color: #455fe7;
+    color: white;
+}
+.page .up {
+    width: 6.4rem;
+    height: 2.5rem;
+    margin-left: 0rem;
+}
+.page .next {
+    width: 6.4rem;
+    height: 2.5rem;
+}
+.right > ul li {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #eeeeee;
+    color: #505050;
+    float: left;
+    margin-left: 0.3rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+.page li {
+    height: 2.5rem;
+    background-color: #eeeeee;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #505050;
+    float: left;
+    margin-left: 0.3rem;
+    text-align: center;
+    line-height: 2.5rem;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.right > ul {
+    width: 59.0rem;
+    height: 2.5rem;
+    float: right;
+    margin-top: 1.8rem;
+    font: 1.3rem "寰蒋闆呴粦";
+}
+.right .p1 {
+	 width: 36.0rem;
+	 height: 3.9rem;
+}
+.right .p2 {
+	width: 36.0rem;
+	height: 3.9rem;
+}
+.right .p3 {
+	width: 14.0rem;
+	height: 3.9rem;
+	margin-right: 0rem;
+}
+.right p {
+	width: 14.6rem;
+	height: 3.9rem;
+	font: 1.4rem "寰蒋闆呴粦";
+	line-height: 3.9rem;
+	text-align: center;
+	float: left;
+	background-color: #eceffd;
+	color: #455fe7;
+	margin-right: 0.8rem;
+}
+.right .first {
+	width: 36.0rem;
+	height: 41.5rem;
+	border: #dedede solid 0.1rem;
+	float: left;
+}
+.right .second {
+	width: 36.0rem;
+	height: 41.5rem;
+	border: #dedede solid 0.1rem;
+	float: left;
+	margin-left: 0.6rem;
+}
+.right .third {
+	width: 14.0rem;
+	height: 41.5rem;
+	border: #dedede solid 0.1rem;
+	float: left;
+	margin-left: 0.6rem;
+}
+div input {
+	border: #dedede solid 0.1rem;
+	width: 273px;
+	height: 3.0rem;
+    text-indent: 1.5rem;
+	margin-left: 0.6rem;
+	margin-top: 0.8rem;
+	background-color: #f8f8f8;
+}
+div input[type=checkbox] {
+	width: 12.0rem;
+	height: 2.0rem;
+}
+.footer {
+	height: 6.8rem;
+	text-align: center;
+	font: 1.5rem "寰蒋闆呴粦";
+	color: #fff;
+	margin-top: 4.7rem;
+	background: #455fe7 url(../images/loginFooter.png);
+}
+.footer span {
+	display: block;
+	position: relative;
+	top: 2.5rem;
+}
+.header p {
+    margin-left: 0rem;
+    margin-top: 0rem;
+    position: relative;
+    left: 35rem;
+    top: 1rem;
+    font-size: 2.6rem;
+}
+.header input {
+    font: 1.6rem "微软雅黑";
+    color: #455fe7;
+    float: right;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 4.0rem;
+    outline: none;
+    border: 0rem;
+    margin-right: 35.0rem;
+    margin-top: 4.0rem;
+    text-indent: 3.5rem;
+    padding-bottom: 0.2rem;
+    background: #ffffff url(../images/homePage.png) no-repeat 1.6rem 0.8rem;
+    cursor: pointer;
+}
+.header input {
+    position: relative;
+	right: 35rem;
+    top: 1rem;
+	margin-right: 0rem;
+	margin-top: 0rem;
+}
+.header{
+	height: 6rem;
+}
+
+.headerContent {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header p {
+    left: 0px;
+}
+.header input {
+	right: 0px;
+}

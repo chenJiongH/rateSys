@@ -1,0 +1,471 @@
+.main .left {
+    height: 76.5rem;
+    padding-top: 1.5rem;
+}
+@media screen and (min-width: 400px){
+	html {
+		font-size: 10px;
+	}
+	body {
+		font-size: 1.6rem;
+	}
+}
+@media screen and (min-width: 800px){
+	html {
+		font-size: 10px;
+	}
+	body {
+		font-size: 1.6rem;
+	}
+}
+@media screen and (min-width: 1280px){
+	html {
+		font-size: 9px;
+	}
+	body {
+		font-size: 1.6rem;
+	}
+}
+@media screen and (min-width: 1360px){
+	html {
+		font-size: 9.5px;
+	}
+	body {
+		font-size: 1.6rem;
+	}
+}
+@media screen and (min-width: 1440px){
+	html {
+		font-size: 10px;
+	}
+	body {
+		font-size: 1.6rem;
+	}
+}
+@media screen and (min-width: 1600px){
+	html {
+		font-size: 10px;
+	}
+	body {
+		font-size: 1.6rem;
+	}
+}
+.messageWarn{
+	padding-left: 0.5rem;padding-right: 0.5rem;vertical-align: top;
+}
+ @font-face
+{
+	font-family: newFont;
+	src: url("../fonts/newFont.TTF");
+}
+.message {
+	display: block;
+    background: #fff;
+    padding: 1.0rem;
+    text-align: center;
+    border-radius: 10.6rem;
+	font-family: newFont;
+    position: absolute;
+    left: 58%;
+    top: -22%;
+    font-size: 1.8rem;
+    font-style: italic;
+    color: #ff9409;
+    display: none;
+}
+.left .s2 {
+    display: inline-block;
+    width: 120px; 
+}
+.draft {
+	position: absolute;
+    background-color: #4bc1d1;
+left: 736px;
+    top: -8rem;
+    color: #fff;
+}
+.ratemessage {
+	position: absolute;
+    left: 25px;
+    top: 1rem;
+}
+.ratemessage label {
+    font-size: 15px;
+    margin-right: 11rem;
+    margin-left: -0.1rem;
+}
+.processRate {
+    position: absolute;
+    top: 3rem;
+    left: 20px;
+    
+}
+.processRate img {
+	/* margin-left: -3rem; */
+}
+.split {
+    width: 93px;
+    margin-bottom: 1.6rem;
+    /* margin-left: -5rem; */
+}
+.view {
+	overflow-y: scroll;
+}
+input::-ms-clear,input::-ms-reveal{
+    display:none
+}
+.right form > .in3 {
+	background-color:#5064cf;
+    position: relative;
+	float: right;
+    right: 2.5rem;
+    position: absolute;
+    top: -8rem;
+    right: 260px;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+img {
+	vertical-align: baseline;
+}
+input {
+	outline: none;
+	border: 0rem
+}
+input[type='button'] {
+	cursor: pointer;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #5a5a5a;
+}
+a:active {
+	text-decoration: none;
+	color: #5a5a5a;
+}
+.clearfix:after{ /*正常浏览器 清除浮动*/
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix{
+	*zoom: 1; /* *zoom 1 就是ie6清除浮动方式 *表示ie7以下的版本可识别*/
+}
+body {
+	background: #f3f3f3;
+}
+.header {
+	height: 12.0rem;
+	background-image: url(../images/exInfoBg.png);
+}
+.header p {
+	font-family: "Noto Sans SC";
+	font-weight: 700;
+	font-size: 3.0rem;
+	color: #fff;
+	float: left;
+	margin-left: 35.0rem;
+	margin-top: 4.0rem;
+}
+.header p span {
+	font-weight: lighter;
+}
+.header input {
+	font: 1.6rem "微软雅黑";
+	color: #455fe7;
+	float: right;
+	width: 14.0rem;
+	height: 4.0rem;
+	border-radius: 4.0rem;
+	outline: none;
+	border: 0rem;
+	margin-right: 35.0rem;
+	margin-top: 4.0rem;
+	text-indent: 3.5rem;
+	padding-bottom: 0.2rem;
+	background: #ffffff url(../images/homePage.png) no-repeat 2.3rem 0.8rem;
+	cursor: pointer;
+}
+.main {
+	width: 1200px;
+	height: 84.5rem;
+	margin: 0 auto;
+}
+.location {
+	width: 30.0rem;
+	height: 1.5rem;
+	font: 1.4rem "微软雅黑";
+	color: #666666;
+	line-height: 1.3rem;
+	text-indent: 2.5rem;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	background: url(../images/locationArr.png) no-repeat 0.2rem 2.5rem;
+}
+.left {
+	width: 205px;
+	height: 73.1rem;
+	background-color: #fff;
+	float: left;
+}
+.left img {
+	margin-top: 3.0rem;
+	margin-left: 6.5rem;
+}
+.left p {
+	width: 12.0rem;
+	border-radius: 3.0rem;
+	height: 3.0rem;
+	margin: 0 auto;
+	font: 700 1.5rem "微软雅黑";
+	line-height: 3.0rem;	
+	color: #fff;
+	background-color: #455fe7;
+	text-align: center;
+	margin-top: 1.5rem;
+/* 	margin-bottom: 53rem; */
+}
+.left li {
+	width: 180px;
+	height: 1.7rem;
+	font: 1.5rem "微软雅黑";
+	color: #5a5a5a;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 25px;
+}
+.left .now {background: url(../images/selected.png) no-repeat;
+    background-size: 100%;
+}
+.left li img {
+	display: inline;
+	margin: 0rem;
+	margin-right: 0.5rem;
+}
+.right {
+    position: relative;
+	float: right;
+	width: 980px;
+	height: 78.1rem;
+	background-color: #fff;
+}
+.right .rhead {
+	width: 25.0rem;
+	height: 2.0rem;
+	font: 700 1.8rem "微软雅黑";
+	color: #455fe7;
+	margin-top: 2.5rem;
+	padding-left: 2.5rem;
+	padding-bottom: 2.5rem;
+/* 	border-bottom: #e9e9e9 solid 1rem; */
+	    margin-bottom: 2.0rem;
+}
+.rhead span {
+	font: 700 1.2rem "微软雅黑";
+	color: #c8c8c8;
+	padding-left: 0.5rem;
+}
+.right .uploadOverall {
+	position: absolute;
+	width: 9.5rem;
+    border-radius: 10.0rem;
+/*    margin-top:15rem;*/
+    margin-left: 5.0rem;
+    width: 7.5rem;
+    height: 3.0rem;
+    color: white;
+    border: none;
+    background-color: #ff9409;
+	
+}
+.right form {
+	width:  100%;
+    height: 63.4rem;
+    margin: 0 auto;
+	margin-bottom: 3.5rem;
+	color: #505050;
+	position: relative;
+}
+form li input,
+select {
+	width: 28.0rem;
+	height: 3.7rem;
+	border: #dedede solid 0.1rem;
+	font: 1.4rem "微软雅黑";
+	border-radius: 0.5rem;
+	margin-bottom: 2.5rem;
+	background-color: #f8f8f8;
+	text-indent: 1.5rem;
+	color: #505050;
+}
+form input[type='button'] {
+	width: 100px;
+	height: 3.5rem;
+	font: 1.5rem "微软雅黑";
+	color: #fff;
+	margin: 0px;
+	border-radius: 3.5rem;
+	margin-bottom: 2.5rem;	
+    margin-top: 1.6rem;
+}
+.left .s1 {
+	font: 1.5rem "微软雅黑";
+	color: #455fe7;
+/*     margin-top: 28rem; */
+}
+.right .s2 {
+	font: 700 1.8rem "微软雅黑";
+	color: #505050;margin-bottom: 3.0rem;
+}
+.exName,.school {
+	font: 1.5rem "微软雅黑";
+}
+form .in2 {
+	background-color: #ff9409;
+    position: relative;
+	float: right;
+      position: absolute;
+	right: -11rem;
+    top: -8rem;
+}
+.right form span {
+	display: inline-block;
+    font: 1.9rem "微软雅黑";
+	color: #505050;
+	margin-top: 1.0rem;
+}
+.tdiv {
+    width: 940px;
+    margin: 0 auto;
+    height: 66.0rem;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+table tr:hover {
+	background-color: #dafdf3;
+}
+table th {
+	background-color: rgb(236, 239, 253);
+	color: rgb(69, 95, 231);
+}
+table {
+    width: 927px;
+	border-collapse: collapse;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+table .t1,.t2,.t3 {
+	width: 196px;
+}
+table .t4 {
+	width: 60px;
+}
+
+table .t15 {
+	width: 80px;
+}
+.t15 input[type='text']{
+	font-size: 1.8rem;
+	width: 75px;
+}
+table .t5 {
+	width: 80px;
+}
+.t5 input{
+		font-size: 1.8rem;
+}
+table .t6 {
+	width: 8.0rem;
+}
+table td,th {
+	height: 3.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    text-align: center;
+}
+table input[type=text] {
+    text-align: center;
+    width: 3.5rem;
+    height: 2.8rem;
+    border: #dedede solid 0.1rem;
+    background-color: #f8f8f8;
+}
+table input[type=button] {
+	width: 5.0rem;
+    height: 2.5rem;
+    margin-bottom: 0rem;
+    position: relative;
+    background-color: #455fe7;
+    color: white;
+    margin: 0rem;
+
+    border-radius: 3.5rem;
+}
+.footer {
+	height: 6.8rem;
+	text-align: center;
+	font: 1.5rem "微软雅黑";
+	color: #fff;
+	margin-top: 4.7rem;
+	background: #455fe7 url(../images/loginFooter.png);
+}
+.footer span {
+	display: block;
+	position: relative;
+	top: 2.5rem;
+}
+.header p {
+    margin-left: 0rem;
+    margin-top: 0rem;
+    position: relative;
+    left: 35rem;
+    top: 1rem;
+    font-size: 2.6rem;
+}
+.header input {
+    font: 1.6rem "微软雅黑";
+    color: #455fe7;
+    float: right;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 4.0rem;
+    outline: none;
+    border: 0rem;
+    margin-right: 35.0rem;
+    margin-top: 4.0rem;
+    text-indent: 3.5rem;
+    padding-bottom: 0.2rem;
+    background: #ffffff url(../images/homePage.png) no-repeat 1.6rem 0.8rem;
+    cursor: pointer;
+}
+.header input {
+    position: relative;
+	right: 35rem;
+    top: 1rem;
+	margin-right: 0rem;
+	margin-top: 0rem;
+}
+.header{
+	height: 6rem;
+}
+
+.headerContent {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header p {
+    left: 0px;
+}
+.header input {
+	right: 0px;
+}

@@ -1,0 +1,32 @@
+.main .left {
+    height: 76.5rem;
+    padding-top: 1.5rem;
+}
+.left .s2 {
+    display: inline-block;
+    width: 120px;
+}
+.left .s1 {
+	font: 15px "微软雅黑";
+	color: #455fe7;
+}@charset "UTF-8";
+.main .right form {
+}
+form .in2 {
+	position: absolute;
+	left: 40%;
+	top: 97%;
+	
+}
+
+.headerContent {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header p {
+    left: 0px;
+}
+.header input {
+	right: 0px;
+}

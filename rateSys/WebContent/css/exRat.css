@@ -1,0 +1,545 @@
+.main .left {
+    height: 76.5rem;
+    padding-top: 1.5rem;
+}
+.left .s2 {
+    display: inline-block;
+    width: 120px;
+}
+.left .s1 {
+	font: 15px "微软雅黑";
+	color: #455fe7;
+/*     margin-top: 28px; */
+}
+input::-ms-clear,input::-ms-reveal{
+    display:none
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+img {
+	vertical-align: baseline;
+}
+input {
+	outline: none;
+	border: 0px
+}
+input[type='button'] {
+	cursor: pointer;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #5a5a5a;
+}
+a:active {
+	text-decoration: none;
+	color: #5a5a5a;
+}
+.clearfix:after{ /*��������� �������*/
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix{
+	*zoom: 1; /* *zoom 1 ����ie6���������ʽ *��ʾie7���µİ汾��ʶ��*/
+}
+body {
+	background: #f3f3f3;
+}
+.header {
+	height: 120px;
+	background-image: url(../images/exInfoBg.png);
+}
+.header p {
+	font-family: "Noto Sans SC";
+	font-weight: 700;
+	font-size: 30px;
+	color: #fff;
+	float: left;
+	margin-left: 350px;
+	margin-top: 40px;
+}
+.header p span {
+	font-weight: lighter;
+}
+.header input {
+	font: 16px "΢���ź�";
+	color: #455fe7;
+	float: right;
+	width: 140px;
+	height: 40px;
+	border-radius: 40px;
+	outline: none;
+	border: 0px;
+	margin-right: 350px;
+	margin-top: 40px;
+	text-indent: 35px;
+	padding-bottom: 2px;
+	background: #ffffff url(../images/homePage.png) no-repeat 23px 8px;
+	cursor: pointer;
+}
+.main {
+	width: 1390px;
+	height: 845px;
+	margin: 0 auto;
+}
+.location {
+	width: 300px;
+	height: 15px;
+	font: 14px "΢���ź�";
+	color: #666666;
+	line-height: 13px;
+	text-indent: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: url(../images/locationArr.png) no-repeat 2px 25px;
+}
+.left {
+	width: 205px;
+	height: 781px;
+	background-color: #fff;
+	float: left;
+}
+.left img {
+	margin-top: 30px;
+	margin-left: 65px;
+}
+.left p {
+	width: 120px;
+	border-radius: 30px;
+	height: 30px;
+	margin: 0 auto;
+	font: 700 15px "΢���ź�";
+	line-height: 30px;	
+	color: #fff;
+	background-color: #455fe7;
+	text-align: center;
+	margin-top: 15px;
+}
+.left li {
+	width: 180px;
+	height: 17px;
+	font: 15px "΢���ź�";
+	color: #5a5a5a;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 25px;
+}
+.left .now {
+	background-image: url(../images/selected.png);
+}
+.left li img {
+	display: inline;
+	margin: 0px;
+	margin-right: 5px;
+}
+.right {
+	float: right;
+	width: 1170px;
+	height: 781px;
+	background-color: #fff;
+}
+.right .rhead {
+	height: 20px;
+	font: 700 18px "΢���ź�";
+	color: #455fe7;
+	margin-top: 25px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	border-bottom: #e9e9e9 solid 1px;
+}
+.rhead span {
+	font: 700 12px "΢���ź�";
+	color: #c8c8c8;
+	padding-left: 5px;
+}
+.right form {
+	width: 1080px;
+	height: 520px;
+	margin-left: 50px;
+	margin-top: 40px;
+	margin-bottom: 35px;
+	color: #505050;
+}
+form li input,
+select {
+	width: 280px;
+	height: 37px;
+	border: #dedede solid 1px;
+	font: 14px "΢���ź�";
+	border-radius: 5px;
+	margin-bottom: 25px;
+	background-color: #f8f8f8;
+	text-indent: 15px;
+	color: #505050;
+}
+form input[type='button'] {
+	width: 100px;
+	height: 35px;
+	font: 15px "΢���ź�";
+	color: #fff;
+	margin: 0px;
+	border-radius: 35px;
+	margin-bottom: 25px;	
+}
+.right .s1 {
+	font: 13px "΢���ź�";
+	color: #455fe7;
+}
+.right .s2 {
+	font: 700 18px "΢���ź�";
+	color: #505050;margin-bottom: 30px;
+}
+form .in2 {
+	background-color: #ff9409;
+	float: right;
+}
+.right form span {
+	display: inline-block;
+	font: 16px "΢���ź�";
+	color: #505050;
+	margin-top: 10px;
+}
+.indexs {
+	width: 1100px;
+	height: 480px;
+}
+.indexs .h {
+	display: block;
+	background-color: #eceffd;
+	margin-top: 0px;
+	height: 39px;
+	font: 14px "΢���ź�";
+	color: #455fe7;
+	text-align: center;
+	line-height: 39px;
+}
+.indexs div
+{
+	border-top: #dedede solid 1px;
+	border-bottom: #dedede solid 1px;
+}
+.indexs input {
+	width: 20px;
+	height: 20px;
+	border: #dedede solid 1px;
+	margin-left: 2px;
+	position: relative;
+	top: 5px;
+}
+.first,.second,.third,.four,.five,.six .h2 {
+	text-align: center;
+	line-height: 39px;
+}
+.first,.second,.third,.four,.five,.six p {
+	font: 13px "΢���ź�";
+	color: #505050;
+}
+.indexs .first {
+	float: left;
+	width: 115px;
+	height: 475px;
+	border-left: #dedede solid 1px;
+}
+.first p {
+	margin-bottom: 170px;
+}
+.first .h2 {
+	width: 100px;
+	height: 39px;
+	margin-top: 8px;
+	margin-left: 8px;
+	background-color: #eceffd;
+	font: 14px "΢���ź�";
+	color: #455fe7;
+	line-height: 39px;
+	margin-bottom: 15px;
+}
+.indexs .second {
+	float: left;
+	width: 120px;
+	height: 475px;
+	border: #dedede solid 1px;
+}
+.second p {
+	margin-bottom: 75px;
+}
+.second .h2 {
+	width: 100px;
+	height: 39px;
+	margin-top: 8px;
+	margin-left: 8px;
+	background-color: #eceffd;
+	font: 14px "΢���ź�";
+	color: #455fe7;
+	line-height: 39px;
+	margin-bottom: 15px;
+}
+.indexs .third {
+	float: left;
+	width: 240px;
+	height: 475px;
+	border-right: #dedede solid 1px;
+}
+.third .p1 {
+	margin-top: -10px;
+	margin-bottom: 5px;
+	text-align: left;
+	text-indent: 15px;
+	position: relative;
+	
+}
+.third .p2 {
+	margin-bottom: 45px;
+	text-align: left;
+	text-indent: 15px;
+	position: relative;
+}
+.third input[type=text] {
+	width: 30px;
+	height: 25px;
+	border: #dedede solid 1px;
+	background-color: #f8f8f8;
+}
+.third input[type=button] {
+	width: 50px;
+	height: 25px;
+	margin-bottom: 0px;
+	position: relative;
+	left: 5px;
+	top: 5px;
+	background-color: #455fe7;
+	color: white;
+}
+.third .h2 {
+	width: 225px;
+	height: 39px;
+	margin-top: 8px;
+	margin-left: 8px;
+	background-color: #eceffd;
+	font: 14px "΢���ź�";
+	color: #455fe7;
+	margin-bottom: 15px;
+}
+.third .h2-1 {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 39px;
+	margin-top: 0px;
+	color: #455fe7;
+	font: 14px "΢���ź�";
+	line-height: 39px;
+}
+.third .h2-2 {
+	display: block;
+	float: left;
+	width: 75px;
+	height: 39px;
+	margin-top: 0px;
+	margin-left: -10;
+	color: #455fe7;
+	font: 14px "΢���ź�";
+	line-height: 39px;
+}
+.third .h2-3 {
+	display: block;
+	float: left;
+	width: 59px;
+	height: 39px;
+	margin-top: 0px;
+	color: #455fe7;
+	font: 14px "΢���ź�";
+	line-height: 39px;
+}
+.indexs .four {
+	float: left;
+	width: 200px;
+	height: 475px;
+	border-right: #dedede solid 1px;
+}
+.four .h2 {
+	width: 180px;
+	height: 39px;
+	margin-top: 8px;
+	margin-left: 8px;
+	background-color: #eceffd;
+	font: 14px "΢���ź�";
+	color: #455fe7;
+}
+.four .h2-1 {
+	width: 55px;
+	height: 39px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: #eceffd;
+	font: 14px "΢���ź�";
+	color: #455fe7;
+	line-height: 39px;
+}
+.four input {
+	width: 40px;
+	height: 28px;
+	border: #dedede solid 1px;
+	background-color: #f8f8f8;
+}
+.four .cen {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.four p {
+	margin-top: 5px
+}
+.four .p2 {
+	margin-bottom: 30px;
+}
+.indexs .five {
+	float: left;
+	width: 200px;
+	height: 475px;
+	border-right: #dedede solid 1px;
+}
+.five .h2 {
+	width: 180px;
+	height: 39px;
+	margin-top: 8px;
+	margin-left: 8px;
+	background-color: #eceffd;
+	font: 14px "΢���ź�";
+	color: #455fe7;
+}
+.five .h2-1 {
+	width: 55px;
+	height: 39px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: #eceffd;
+	font: 14px "΢���ź�";
+	color: #455fe7;
+	line-height: 39px;
+}
+.five input {
+	width: 40px;
+	height: 28px;
+	border: #dedede solid 1px;
+	background-color: #f8f8f8;
+}
+.five .cen {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.five p {
+	margin-top: 5px
+}
+.five .p2 {
+	margin-bottom: 30px;
+}
+.indexs .six {
+	float: left;
+	width: 200px;
+	height: 475px;
+	border-right: #dedede solid 1px;
+}
+.six p {
+	text-align: center;
+}
+.six .h2 {
+	width: 180px;
+	height: 39px;
+	margin-top: 8px;
+	margin-left: 8px;
+	background-color: #eceffd;
+	font: 14px "΢���ź�";
+	color: #455fe7;
+}
+.six .h2-1 {
+	width: 55px;
+	height: 39px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: #eceffd;
+	font: 14px "΢���ź�";
+	color: #455fe7;
+	line-height: 39px;
+}
+.six input {
+	width: 40px;
+	height: 28px;
+	border: #dedede solid 1px;
+	background-color: #f8f8f8;
+}
+.six .cen {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.six p {
+	margin-top: 5px
+}
+.six .p2 {
+	margin-bottom: 30px;
+}
+.footer {
+	height: 68px;
+	text-align: center;
+	font: 15px "΢���ź�";
+	color: #fff;
+	margin-top: 47px;
+	background: #455fe7 url(../images/loginFooter.png);
+}
+.footer span {
+	display: block;
+	position: relative;
+	top: 25px;
+}
+.header p {
+    margin-left: 0rem;
+    margin-top: 0rem;
+    position: relative;
+    left: 35rem;
+    top: 1rem;
+    font-size: 2.6rem;
+}
+.header input {
+    font: 1.6rem "微软雅黑";
+    color: #455fe7;
+    float: right;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 4.0rem;
+    outline: none;
+    border: 0rem;
+    margin-right: 35.0rem;
+    margin-top: 4.0rem;
+    text-indent: 3.5rem;
+    padding-bottom: 0.2rem;
+    background: #ffffff url(../images/homePage.png) no-repeat 1.6rem 0.8rem;
+    cursor: pointer;
+}
+.header input {
+    position: relative;
+	right: 35rem;
+    top: 1rem;
+	margin-right: 0rem;
+	margin-top: 0rem;
+}
+.header{
+	height: 6rem;
+}
+
+.headerContent {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header p {
+    left: 0px;
+}
+.header input {
+	right: 0px;
+}
